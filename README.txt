@@ -13,5 +13,6 @@ Arguments:
     do_logging = true to enable logging, false to disable logging only printing final result
 
 Output:
-    Prints log updates if it is enabled, final global counter, and total runtime.
-    
+    Prints log updates when enabled
+    Prints global counter
+    Prints total runtime
