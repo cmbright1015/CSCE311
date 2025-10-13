@@ -9,7 +9,7 @@ Arguments:
     sloppiness = local increments before the global counter is updated
     work_time = work time per iteration in ms
     work_iterations = the number of iterations per thread
-    cpu_bound = true for cpu_bound simulation, false for I/O cpu_bound
+    cpu_bound = true for cpu_bound simulation, false for I/O bound
     do_logging = true to enable logging, false to disable logging only printing final result
 
 Output:
