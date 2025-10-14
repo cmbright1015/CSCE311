@@ -1,0 +1,69 @@
+Caleb Bright
+
+Test 1:
+    Command:
+        ./sloppySim 2 10 10 100 false false
+    
+    Action:
+        This command runs 2 threads with sloppiness at 10 with 100 iterations of I/O.
+
+    Results:
+        Final count was 
+        It finished in about 
+
+Test 2:
+    Command:
+        ./sloppySim 8 10 10 100 false false
+    
+    Action:
+        This command just adds more threads to make sure it works correctly
+
+    Results:
+        Final count was
+        It finished in about
+
+
+Test 3:
+    Command:
+        ./sloppySim 4 1 10 100 false false
+    
+    Action:
+        This command updates the global counter with every increment
+
+    Results:
+        Final count was
+        It finished in about
+
+
+Test 4:
+    Command:
+        ./sloppySim 4 5 10 1000 true false
+    
+    Action:
+        This command performs CPU heavy threads
+    
+    Results:
+        Final count was
+        It finished in about
+
+Test 5:
+    Command:
+        ./sloppySim 4 5 10 1000 false true
+    
+    Action:
+        Uses output logging
+    
+    Results:
+        Final count was
+        It finished in about
+
+Test 6:
+    Command:
+        ./sloppySim 30 10 10 100 false false
+    
+    Purpose:
+        Check performance with alot of threads
+    
+    Results:
+        Final count was
+        It finished in about
