@@ -6,4 +6,5 @@ all: sloppySim
 sloppySim: sloppySim.cpp
 	$(CXX) $(CXXFLAGS) -o sloppySim sloppySim.cpp
 
-clean: rm -f sloppySim
+clean:
+	rm -f sloppySim
