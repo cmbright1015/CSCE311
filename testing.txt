@@ -8,8 +8,8 @@ Test 1:
         This command runs 2 threads with sloppiness at 10 with 100 iterations of I/O.
 
     Results:
-        Final count was 
-        It finished in about 
+        Final count was 200
+        It finished in about 1.2 seconds
 
 Test 2:
     Command:
@@ -19,8 +19,8 @@ Test 2:
         This command just adds more threads to make sure it works correctly
 
     Results:
-        Final count was
-        It finished in about
+        Final count was 800
+        It finished in about 1.2 seconds
 
 
 Test 3:
@@ -31,8 +31,8 @@ Test 3:
         This command updates the global counter with every increment
 
     Results:
-        Final count was
-        It finished in about
+        Final count was 400 
+        It finished in about 1.2 seconds
 
 
 Test 4:
@@ -43,8 +43,8 @@ Test 4:
         This command performs CPU heavy threads
     
     Results:
-        Final count was
-        It finished in about
+        Final count was 4000
+        It finished in about 3.1 seconds
 
 Test 5:
     Command:
@@ -54,8 +54,8 @@ Test 5:
         Uses output logging
     
     Results:
-        Final count was
-        It finished in about
+        Final count was 4000
+        It finished in about 12 seconds
 
 Test 6:
     Command:
@@ -65,5 +65,5 @@ Test 6:
         Check performance with alot of threads
     
     Results:
-        Final count was
-        It finished in about
+        Final count was 3000
+        It finished in about 1.1 seconds
