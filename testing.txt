@@ -9,7 +9,7 @@ Test 1:
 
     Results:
         Final count was 200
-        It finished in about 1.2 seconds
+        It finished in about 1 second
 
 Test 2:
     Command:
@@ -20,7 +20,7 @@ Test 2:
 
     Results:
         Final count was 800
-        It finished in about 1.2 seconds
+        It finished in about 1 second
 
 
 Test 3:
@@ -32,7 +32,7 @@ Test 3:
 
     Results:
         Final count was 400 
-        It finished in about 1.2 seconds
+        It finished in about 1 second
 
 
 Test 4:
@@ -44,7 +44,7 @@ Test 4:
     
     Results:
         Final count was 4000
-        It finished in about 3.1 seconds
+        It finished in about 6.6 seconds
 
 Test 5:
     Command:
@@ -55,7 +55,7 @@ Test 5:
     
     Results:
         Final count was 4000
-        It finished in about 12 seconds
+        It finished in about 10.3 seconds
 
 Test 6:
     Command:
